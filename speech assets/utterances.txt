@@ -1,0 +1,23 @@
+SupportedAirlinesIntent What airlines do you know about
+SupportedAirlinesIntent Tell me what airlines I can use
+SupportedAirlinesIntent Tell me what airlines you know
+SupportedAirlinesIntent Tell me which airlines I can use
+SupportedAirlinesIntent What are the supported airlines
+SupportedAirlinesIntent What airlines are supported
+SupportedAirlinesIntent Which airlines
+SupportedAirlinesIntent What airlines
+FlightDialogIntent {CarrierCode} {FlightNumber}
+FlightDialogIntent What is the status of flight {CarrierCode} {FlightNumber} 
+FlightDialogIntent Is flight {CarrierCode} {FlightNumber} delayed
+FlighDialogtIntent Is flight {CarrierCode} {FlightNumber} on time
+FlightIntent {CarrierCode}
+NumberIntent {FlightNumber}
+FinalResponseIntent What is the status of my flight
+FinalResponseIntent Is my flight delayed
+FinalResponseIntent Is my flight on time
+FinalResponseIntent What's the departure time of my flight
+ResetSessionIntent Clear all information
+ResetSessionIntent Reset
+ResetSessionIntent Reset my information
+ResetSessionIntent Start over
+ResetSessionIntent Start again

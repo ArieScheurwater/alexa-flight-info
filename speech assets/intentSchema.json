@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "intent": "SupportedAirlinesIntent",
+      "slots": []
+    },
+    {
+      "intent": "FlightDelayedIntent",
+      "slots": []
+    },
+    {
+      "intent": "FinalResponseIntent",
+      "slots": []
+    },
+    {
+      "intent": "ResetSessionIntent",
+      "slots": []
+    },
+    {
+      "intent": "FlightIntent",
+      "slots": [
+        {
+          "name": "CarrierCode",
+          "type": "LIST_OF_AIRLINES"
+        },
+        {
+          "name": "FlightNumber",
+          "type": "AMAZON.NUMBER"
+        }
+        ]
+    },
+    {
+      "intent": "NumberIntent",
+      "slots": [
+        {
+          "name": "FlightNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "FlightDialogIntent",
+      "slots": [
+        {
+          "name": "CarrierCode",
+          "type": "LIST_OF_AIRLINES"
+        },
+        {
+          "name": "FlightNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.YesIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.NoIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

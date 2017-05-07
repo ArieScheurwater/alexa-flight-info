@@ -1,0 +1,55 @@
+{
+  "Departure": {
+    "AirportCode": "FRA",
+    "ScheduledTimeLocal": {
+      "DateTime": "2016-08-10T11:00"
+    },
+    "ScheduledTimeUTC": {
+      "DateTime": "2016-08-10T09:00Z"
+    },
+    "ActualTimeLocal": {
+      "DateTime": "2016-08-10T11:12"
+    },
+    "ActualTimeUTC": {
+      "DateTime": "2016-08-10T09:12Z"
+    },
+    "TimeStatus": {
+      "Code": "OT",
+      "Definition": "Flight On Time"
+    },
+    "Terminal": {
+      "Name": 1,
+      "Gate": "C14"
+    }
+  },
+  "Arrival": {
+    "AirportCode": "JFK",
+    "ScheduledTimeLocal": {
+      "DateTime": "2016-08-10T13:35"
+    },
+    "ScheduledTimeUTC": {
+      "DateTime": "2016-08-10T17:35Z"
+    },
+    "EstimatedTimeLocal": {
+      "DateTime": "2016-08-10T13:05"
+    },
+    "EstimatedTimeUTC": {
+      "DateTime": "2016-08-10T17:05Z"
+    },
+    "TimeStatus": {
+      "Code": "FE",
+      "Definition": "Flight Early"
+    },
+    "Terminal": {
+      "Name": 1,
+      "Gate": "005"
+    }
+  },
+  "Equipment": {
+    "AircraftCode": 388
+  },
+  "FlightStatus": {
+    "Code": "DP",
+    "Definition": "Flight Departed"
+  }
+}

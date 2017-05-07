@@ -1,0 +1,20 @@
+#%RAML 0.8
+title: stb-demonstrator
+version: 1.0
+
+baseUri: http://localhost:8081/api
+
+/flights:
+  /{flightid}:
+    get:
+      queryParameters:
+        date:
+          description: The date for the flight, by default is the current date.
+          example: 2016-08-01
+          required: true
+      responses:
+        200:
+          description: The information of the flight.
+          body:
+            application/json:
+              example: !include samples/flight.json
